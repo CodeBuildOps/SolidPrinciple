@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("SOLID")]
+[assembly: AssemblyTitle("DIP")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Hexagon capability center")]
-[assembly: AssemblyProduct("SOLID")]
+[assembly: AssemblyProduct("DIP")]
 [assembly: AssemblyCopyright("Copyright © Hexagon capability center 2025")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("6dd8ed99-b782-429d-ae0e-20c6f01767c9")]
+[assembly: Guid("d65ef00a-d325-4725-a3a1-0ca49268d397")]
 
 // Version information for an assembly consists of the following four values:
 //

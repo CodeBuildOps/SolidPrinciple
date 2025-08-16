@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6DD8ED99-B782-429D-AE0E-20C6F01767C9}</ProjectGuid>
+    <ProjectGuid>{B089EA2D-EF9F-47DD-A5D1-8CCE40B73724}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>SOLID</RootNamespace>
-    <AssemblyName>SOLID</AssemblyName>
+    <RootNamespace>ISP</RootNamespace>
+    <AssemblyName>ISP</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>LSP.Solution.Program</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -43,14 +46,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Calculate.cs" />
-    <Compile Include="Circle.cs" />
-    <Compile Include="Printer.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="Problem\Printer.cs" />
+    <Compile Include="Problem\Program.cs" />
+    <Compile Include="Problem\Shape.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Solution\Printer.cs" />
+    <Compile Include="Solution\Program.cs" />
+    <Compile Include="Solution\Shape.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

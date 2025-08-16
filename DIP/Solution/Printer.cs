@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace SOLID
+namespace DIP.Solution
 {
-    internal interface IPrinter
+    interface IPrinter
     {
         void Print(IShape shape);
     }
